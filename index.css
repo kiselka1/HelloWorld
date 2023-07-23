@@ -62,3 +62,49 @@ body {
     justify-content: center;
     gap: 32px;
 }
+
+@media (max-width: 767px) {
+
+    
+
+    .top {
+        background-image: url(img/Rectanglemob1.jpg);
+        width: 395px;
+        height: 735px;
+    }
+
+    .top_heading {
+        padding-left: 0%;
+        padding-top: 238px;
+        width: 343px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .top_title {
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .top_text {
+        font-size: 14px;
+        line-height: 22px;
+        width: 340px;
+        padding-left: 65px;
+    }
+
+    .group {
+        height: 1221px;
+        width: 425px;
+        background-image: url(img/Rectanglemob2.jpg);
+        
+    }
+
+    .section_group {
+      flex-wrap: wrap;
+      padding-top: 95px;
+      padding-right: 35px;
+    }
+}
