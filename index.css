@@ -7,6 +7,11 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
 .top {
     height: 735px;
     background-image: url(img/Rectangle\ 1.png);
@@ -33,6 +38,7 @@ body {
     color: #FFFF;
     font-size: 18px;
     width: 481px;
+    font-weight: 300;
 }
 
 .home_button {
@@ -46,6 +52,11 @@ body {
         line-height: 20px;
         color: #ffffff;
         text-decoration: none;
+        transition: all 0.3s;
+}
+
+.home_button:hover {
+    background-color: #EB443F;
 }
 
 .group {
@@ -56,11 +67,76 @@ body {
     background-size: cover;
 }
 
+.group_img {
+    transition: all 0.1s;
+    border-radius: 16px;
+}
+
+
+.group_img:hover {
+    border: 3px solid #44D2FF;
+}
+
 .section_group {
     padding-top: 76px;
     display: flex;
     justify-content: center;
     gap: 32px;
+}
+
+.seasons {
+    height: 700px;
+    background-image: url(img/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section_seasons {
+    width: 378px;
+    display: flex;
+    gap: 80px;
+    padding-top: 150px;
+    padding-left: 120px;
+    padding-bottom: 100px;
+}
+
+.seasons_info {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.seasons_title {
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.seasons_text{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 300;
+    width: 584px
+}
+
+.seasons_button {
+    background: #9C0332;
+        border: #9C0332;
+        box-sizing: border-box;
+        border-radius: 30px;
+        width: 234px;
+        height: 48px;
+        font-size: 18px;
+        line-height: 20px;
+        color: #ffffff;
+        text-decoration: none;
+        transition: all 0.3s;
+}
+
+.seasons_button:hover {
+        background-color: #EB443F;
 }
 
 @media (max-width: 767px) {
