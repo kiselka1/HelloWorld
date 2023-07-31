@@ -14,9 +14,9 @@ if (q > 0 && q < 10) {
     console.log ('Неверно')
 }
 
-let d;
-let e;
-if (d || e > 100) {
+let d = 99;
+let e = 102;
+if (d > 100 || e > 100) {
     console.log ('Верно')
 } else {
     console.log ('Неверно')
@@ -28,40 +28,40 @@ alert(Number(n) + Number(m));
 
 let month = Number(prompt('Введите номер месяца'));
 switch(month) {
-    case '1':
+    case 1:
         console.log('Зима')
         break;
-    case '2':
+    case 2:
         console.log('Зима')
         break;
-    case '3':
+    case 3:
         console.log('Весна')
         break;
-    case '4':
+    case 4:
          console.log('Весна')
         break;
-    case '5':
+    case 5:
         console.log('Весна')
         break;
-    case '6':
+    case 6:
         console.log('Лето')
         break;
-    case '7':
+    case 7:
         console.log('Лето')
         break;
-    case '8':
+    case 8:
         console.log('Лето')
         break;
-    case '9':
+    case 9:
         console.log('Осень')
         break;
-    case '10':
+    case 10:
         console.log('Осень')
         break;
-    case '11':
+    case 11:
         console.log('Осень')
         break;
-    case '12':
+    case 12:
         console.log('Зима')
         break;
     default:
