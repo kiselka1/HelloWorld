@@ -140,6 +140,23 @@ body {
         background-color: #EB443F;
 }
 
+.section_memorise {
+    width: 378px;
+    display: flex;
+    gap: 80px;
+    padding-top: 150px;
+    padding-left: 120px;
+    padding-bottom: 100px;
+}
+
+.memorise {
+    height: 700px;
+    background-image: url(img/Rectangle\ 7.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 @media (max-width: 767px) {
 
     .center {
@@ -220,4 +237,20 @@ body {
        width: 344px;
        height: 236px;
     }
+
+    .memorise {
+        width: 375px;
+        height: 654px;
+    }
+
+    .section_memorise {
+        padding-left: 10px;
+        width: 343px;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-top: 0%;
+        flex-direction: column-reverse;
+    }
+
+    
 }
