@@ -55,47 +55,17 @@ for (let i = 0; i <= 10; i++) {
 
 function showTextButton() {
   let month = prompt('Введите номер месяца');
-    switch(month) {
-    case 1:
-        console.log('Зима')
-        break;
-    case 2:
-        console.log('Зима')
-        break;
-    case 3:
-        console.log('Весна')
-        break;
-    case 4:
-         console.log('Весна')
-        break;
-    case 5:
-        console.log('Весна')
-        break;
-    case 6:
-        console.log('Лето')
-        break;
-    case 7:
-        console.log('Лето')
-        break;
-    case 8:
-        console.log('Лето')
-        break;
-    case 9:
-        console.log('Осень')
-        break;
-    case 10:
-        console.log('Осень')
-        break;
-    case 11:
-        console.log('Осень')
-        break;
-    case 12:
-        console.log('Зима')
-        break;
-    default:
-      console.log('Что-то пошло не так')
-        break;
-}
+    if(month = 1 || 2 || 12) {
+    console.log('Зима')
+    } else if (month = 3 || 4 || 5) {
+          console.log ('Весна')
+    } else if (month = 6 || 7 || 8) {
+      console.log('Лето')
+    } else if (month = 9 || 10 || 11) {
+      console.log('Осень')
+    } else {
+      console.log ('Что-то пошло не так')
+    }
 }
 
  
