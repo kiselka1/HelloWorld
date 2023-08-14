@@ -63,3 +63,39 @@ function showTextButton() {
       console.log('Что-то пошло не так')
     }
 }
+
+let n = [
+  [1, 2, 3,],
+  [4, 5, 6]
+]
+n = n.join();
+console.log(n);
+
+let randomNubers = [1,3,5,7];
+let result = 0;
+for (let i = 0; i < randomNubers.length ; i++) {
+    result += randomNubers[i];
+}
+console.log(result);
+
+const g = [1, 2, 3, 4, 5]
+   const squares = g.map(function(num) {
+    return num * num
+   })
+   console.log(squares)
+
+   let negativeNumbers = [
+   [-1, 0, 5, -10, 56],
+   [-25, 25, 0, -1000, -2]
+  ]
+   let res = negativeNumbers.filter(function(elem) {
+	  if (elem <= 0) {
+		return true;
+	  } else {
+		return false;
+	}
+});
+console.log(res);
+
+
+
